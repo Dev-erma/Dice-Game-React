@@ -74,7 +74,7 @@ const GamePlay = () => {
 
                 <div className={styles.image}>
 
-                    <img src={`../public/images/dice/dice_${toppedNumber ? toppedNumber : 1}.png`} alt="" onClick={generateNumber} />
+                    <img src={`./images/dice/dice_${toppedNumber ? toppedNumber : 1}.png`} alt="" onClick={generateNumber} />
                 
                 </div>
 
